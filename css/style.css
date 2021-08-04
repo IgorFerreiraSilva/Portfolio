@@ -1,0 +1,240 @@
+body{
+    font-family: 'Basic', sans-serif;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/*Header*/
+
+section.background{
+    width: 100%;
+    height: 765px;
+    background: url("../img/background.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.header a{
+    color: #fff;
+    font-size: 25px;
+}
+
+.header a h2{
+    margin-top: 20px;
+    float: left;
+}
+
+.header a:hover{
+    color: #FFE600;
+}
+
+.header{
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    z-index: 10;
+}
+
+.header-menu{
+    text-align: right;
+    
+}
+
+.header-menu ul li{
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.header-menu ul li a{
+    color: #FFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 10px 0;
+}
+
+.header-menu ul li a:hover{
+    color: #FFE600;
+}
+
+/*apresentação*/
+
+.apresentacao{
+    color: #FFF;
+    margin-top: 30%;
+}
+
+.apresentacao h2{
+    font-size: 40px;
+}
+
+.apresentacao h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.apresentacao h3{
+    color: #FFE600;
+    font-size: 40px;
+}
+
+/*sobre*/
+
+.sobre{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+.sobre h2{
+    font-size: 30px;
+    margin: 30px;
+    text-align: center;
+}
+
+.img-sobre{
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+.img-sobre img{
+    width: 295px;
+    height: 295px;
+    border: 4px #FFE600 solid;
+}
+
+.texto-sobre{
+    float: right;
+}
+
+.texto-sobre p{
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+/*tecnologias*/
+
+.tecnologias{
+    width: 100%;
+    height: 600px;
+    background: #FFE600;
+}
+
+.subtitulo{
+    text-align: center;
+}
+
+.subtitulo h2{
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.subtitulo > p{
+    font-size: 19px;
+    margin-top: 12px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #000;
+}
+
+.cards li{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    text-align: center;
+    background: #FFF;
+}
+
+.cards li img{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cards li p{
+    font-size: 18px;
+}
+
+/*Portfólio*/
+
+.portfolio{
+    width: 100%;
+    height: 800px;
+    clear: both;
+
+}
+
+.cards-portfolio li{
+    width: 450px;
+    height: 300px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.cards-portfolio img{
+    width: 447px;
+    height: 230px;
+    margin-bottom: 20px;
+}
+
+
+.cards-portfolio ul a{
+    text-decoration: none;
+    color: #000;
+    font-size: 19px;
+}
+
+.cards-portfolio li:hover{
+    box-shadow: 10px 10px 5px grey;
+}
+
+/*contato*/
+
+section.contato{
+    width: 100%;
+    height: 400px;
+    background: #FFE600;
+    text-align: center;
+}
+
+.cards-contato ul li{
+    width: 220px;
+    height: 200px;
+    background-color: #FFF;
+}
+
+.cards-contato img{
+    margin-top: 20px;
+    width: 80px;
+    height: 80px;
+}
+
+.cards-contato p{
+    margin-top: 20px;
+    font-size: 20px;
+    color: #000;
+}
+
+.cards-contato .link-email{
+    font-size: 15px;
+}
+
+/*Footer*/
+
+footer{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    background-color: #000;
+}
+
+footer h3{
+    margin-top: 20px;
+    color: #FFE600;
+}
